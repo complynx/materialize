@@ -11,6 +11,7 @@
   padding-bottom: 60px;
   background-color: $sidenav-bg-color;
   z-index: 999;
+  backface-visibility: hidden;
   overflow-y: auto;
   will-change: transform;
   backface-visibility: hidden;
@@ -34,6 +35,7 @@
   li {
     float: none;
     line-height: $sidenav-item-height;
+    overflow-y: hidden;
 
     &.active { background-color: rgba(0,0,0,.05); }
   }
